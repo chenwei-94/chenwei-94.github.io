@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>提升自我价值</title>
+  <icon>http://example.com/icon.png</icon>
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-11-14T12:36:18.765Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Chen Wei</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>遭遇</title>
+    <link href="http://example.com/2021/11/14/encounter/"/>
+    <id>http://example.com/2021/11/14/encounter/</id>
+    <published>2021-11-14T12:30:03.000Z</published>
+    <updated>2021-11-14T12:36:18.765Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;情况简述：&quot;&gt;&lt;a href=&quot;#情况简述：&quot; class=&quot;headerlink&quot; title=&quot;情况简述：&quot;&gt;&lt;/a&gt;情况简述：&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

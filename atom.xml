@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-14T12:36:18.765Z</updated>
+  <updated>2021-11-15T14:18:29.304Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>命令</title>
+    <link href="http://example.com/2021/11/15/%E5%91%BD%E4%BB%A4/"/>
+    <id>http://example.com/2021/11/15/%E5%91%BD%E4%BB%A4/</id>
+    <published>2021-11-15T13:48:17.000Z</published>
+    <updated>2021-11-15T14:18:29.304Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hexo常用命令&quot;&gt;&lt;a href=&quot;#hexo常用命令&quot; class=&quot;headerlink&quot; title=&quot;hexo常用命令&quot;&gt;&lt;/a&gt;hexo常用命令&lt;/h1&gt;&lt;p&gt;新文章或者新的页面&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>遭遇</title>

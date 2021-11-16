@@ -7,8 +7,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>命令</title>
-    <url>/2021/11/15/%E5%91%BD%E4%BB%A4/</url>
+    <title>hexo常用命令</title>
+    <url>/2021/11/15/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p>新文章或者新的页面</p>
 <pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">hexo new [layout] <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 

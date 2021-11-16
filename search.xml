@@ -144,8 +144,7 @@ date: 2013&#x2F;7&#x2F;13 20:46:25
 <tr>
 <td align="left"><code>disableNunjucks</code></td>
 <td align="left">Disable rendering of Nunjucks tag <code>&#123;&#123; &#125;&#125;</code>/<code>&#123;% %&#125;</code> and <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnM=">tag plugins<i class="fa fa-external-link-alt"></i></span> when enabled</td>
-<td align="left">格式<br><blockquote><p><br>引用内容<br></p>
-<footer><strong>作者 原文链接</strong></footer></blockquote></td>
+<td align="left"></td>
 </tr>
 <tr>
 <td align="left"><code>lang</code></td>

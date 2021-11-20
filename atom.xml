@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-17T14:29:21.224Z</updated>
+  <updated>2021-11-19T13:21:41.307Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/11/17/%E8%BF%99%E6%98%AF%E7%BB%99%E7%9B%B8%E5%85%B3%E4%BA%BA%E5%91%98%E6%9F%A5%E7%9C%8B%E7%9A%84%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
     <id>http://example.com/2021/11/17/%E8%BF%99%E6%98%AF%E7%BB%99%E7%9B%B8%E5%85%B3%E4%BA%BA%E5%91%98%E6%9F%A5%E7%9C%8B%E7%9A%84%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2021-11-17T14:21:11.000Z</published>
-    <updated>2021-11-17T14:29:21.224Z</updated>
+    <updated>2021-11-19T13:21:41.307Z</updated>
     
     
       
@@ -34,6 +34,10 @@
     
     
     
+    <category term="案件" scheme="http://example.com/categories/%E6%A1%88%E4%BB%B6/"/>
+    
+    
+    <category term="自述" scheme="http://example.com/tags/%E8%87%AA%E8%BF%B0/"/>
     
   </entry>
   
@@ -42,7 +46,7 @@
     <link href="http://example.com/2021/11/16/%E5%BB%BA%E7%AB%99%E7%9A%84%E7%94%B1%E8%A1%B7%EF%BC%81/"/>
     <id>http://example.com/2021/11/16/%E5%BB%BA%E7%AB%99%E7%9A%84%E7%94%B1%E8%A1%B7%EF%BC%81/</id>
     <published>2021-11-16T13:43:48.000Z</published>
-    <updated>2021-11-16T13:48:17.794Z</updated>
+    <updated>2021-11-19T13:21:17.400Z</updated>
     
     
       
@@ -55,8 +59,8 @@
     
     
     
-    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
     
+    <category term="技能" scheme="http://example.com/tags/%E6%8A%80%E8%83%BD/"/>
     
   </entry>
   
@@ -65,7 +69,7 @@
     <link href="http://example.com/2021/11/15/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>http://example.com/2021/11/15/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
     <published>2021-11-15T13:48:17.000Z</published>
-    <updated>2021-11-16T12:06:43.105Z</updated>
+    <updated>2021-11-19T13:20:46.261Z</updated>
     
     
       
@@ -79,6 +83,10 @@
     
     
     
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
     
   </entry>
   
@@ -87,7 +95,7 @@
     <link href="http://example.com/2021/11/14/encounter/"/>
     <id>http://example.com/2021/11/14/encounter/</id>
     <published>2021-11-14T12:30:03.000Z</published>
-    <updated>2021-11-16T13:51:35.299Z</updated>
+    <updated>2021-11-18T13:37:46.437Z</updated>
     
     
       

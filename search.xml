@@ -10,36 +10,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hwxo分类和标签设置</title>
-    <url>/2021/11/21/hwxo%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<p>新建page页面</p>
-<p>分类</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo n page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>标签</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo n page tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>在source目录找到对应的categories和tags目录，在目录中找到index.md，编辑index.md的Front-matter部分。如下；</p>
-<pre class="line-numbers language-none"><code class="language-none">---
-title: Hello World
-date: 2013&#x2F;7&#x2F;13 20:46:25
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>在data：下面添加</p>
-<pre class="line-numbers language-none"><code class="language-none">type: categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>在data：下面添加</p>
-<pre class="line-numbers language-none"><code class="language-none">type: tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo - 分类和标签设置</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo常用命令</title>
     <url>/2021/11/15/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p>新文章或者新的页面</p>
@@ -421,6 +391,36 @@ $ hexo generate --config custom.yml,custom2.json,custom3.yml<span aria-hidden="t
       </categories>
       <tags>
         <tag>自述</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hwxo分类和标签设置</title>
+    <url>/2021/11/21/hwxo%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<p>新建page页面</p>
+<p>分类</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo n page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>标签</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo n page tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在source目录找到对应的categories和tags目录，在目录中找到index.md，编辑index.md的Front-matter部分。如下；</p>
+<pre class="line-numbers language-none"><code class="language-none">---
+title: Hello World
+date: 2013&#x2F;7&#x2F;13 20:46:25
+---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在data：下面添加</p>
+<pre class="line-numbers language-none"><code class="language-none">type: categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在data：下面添加</p>
+<pre class="line-numbers language-none"><code class="language-none">type: tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo - 分类和标签设置</tag>
       </tags>
   </entry>
   <entry>

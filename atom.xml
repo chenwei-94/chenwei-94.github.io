@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-21T13:40:18.698Z</updated>
+  <updated>2021-11-24T09:33:43.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宝塔面板安装</title>
+    <link href="http://example.com/2021/11/24/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/"/>
+    <id>http://example.com/2021/11/24/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/</id>
+    <published>2021-11-24T09:33:43.000Z</published>
+    <updated>2021-11-24T09:33:43.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;宝塔面板安装记录&quot;&gt;&lt;a href=&quot;#宝塔面板安装记录&quot; class=&quot;headerlink&quot; title=&quot;宝塔面板安装记录&quot;&gt;&lt;/a&gt;宝塔面板安装记录&lt;/h1&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="运维" scheme="http://example.com/categories/%E8%BF%90%E7%BB%B4/"/>
+    
+    
+    <category term="宝塔" scheme="http://example.com/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="DNS" scheme="http://example.com/tags/DNS/"/>
+    
+  </entry>
   
   <entry>
     <title>Hwxo分类和标签设置</title>

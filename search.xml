@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>遭遇</title>
-    <url>/2021/11/14/encounter/</url>
-    <content><![CDATA[<h1 id="情况简述："><a href="#情况简述：" class="headerlink" title="情况简述："></a>情况简述：</h1><h2 id="事发在2019年11月，本来是找工作，最后变成买车，说好了有“免费”固定货源，还不就是为了卖车，价格贵，收费内容全靠编，交钱前一回事、交钱后一回事，说好的价格清单没有了，说好的办理运营证也没有了，有工商举报、有游行、有打官司、一直打到高级人民法院！最后还是败！！！这就是我的遭遇！！！"><a href="#事发在2019年11月，本来是找工作，最后变成买车，说好了有“免费”固定货源，还不就是为了卖车，价格贵，收费内容全靠编，交钱前一回事、交钱后一回事，说好的价格清单没有了，说好的办理运营证也没有了，有工商举报、有游行、有打官司、一直打到高级人民法院！最后还是败！！！这就是我的遭遇！！！" class="headerlink" title="事发在2019年11月，本来是找工作，最后变成买车，说好了有“免费”固定货源，还不就是为了卖车，价格贵，收费内容全靠编，交钱前一回事、交钱后一回事，说好的价格清单没有了，说好的办理运营证也没有了，有工商举报、有游行、有打官司、一直打到高级人民法院！最后还是败！！！这就是我的遭遇！！！"></a>事发在2019年11月，本来是找工作，最后变成买车，说好了有“免费”固定货源，还不就是为了卖车，价格贵，收费内容全靠编，交钱前一回事、交钱后一回事，说好的价格清单没有了，说好的办理运营证也没有了，有工商举报、有游行、有打官司、一直打到高级人民法院！最后还是败！！！这就是我的遭遇！！！</h2><p>​                                             <a href="www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85">点击  ☞（案件详情）</a>                        <a href="www.19941115.top/%E9%A1%B9%E7%9B%AE%E8%AE%A1%E5%88%92%E4%B9%A6">点击 ☞ （项目计划书）</a></p>
-]]></content>
-      <tags>
-        <tag>简介</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hwxo分类和标签设置</title>
-    <url>/2021/11/21/hwxo%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<p>新建page页面</p>
-<p>分类</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo n page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>标签</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo n page tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>在source目录找到对应的categories和tags目录，在目录中找到index.md，编辑index.md的Front-matter部分。如下；</p>
-<pre class="line-numbers language-none"><code class="language-none">---
-title: Hello World
-date: 2013&#x2F;7&#x2F;13 20:46:25
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>在data：下面添加</p>
-<pre class="line-numbers language-none"><code class="language-none">type: categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>在data：下面添加</p>
-<pre class="line-numbers language-none"><code class="language-none">type: tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo - 分类和标签设置</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo常用命令</title>
     <url>/2021/11/15/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p>新文章或者新的页面</p>
@@ -357,6 +318,45 @@ $ hexo generate --config custom.yml,custom2.json,custom3.yml<span aria-hidden="t
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>遭遇</title>
+    <url>/2021/11/14/encounter/</url>
+    <content><![CDATA[<h1 id="情况简述："><a href="#情况简述：" class="headerlink" title="情况简述："></a>情况简述：</h1><h2 id="事发在2019年11月，本来是找工作，最后变成买车，说好了有“免费”固定货源，还不就是为了卖车，价格贵，收费内容全靠编，交钱前一回事、交钱后一回事，说好的价格清单没有了，说好的办理运营证也没有了，有工商举报、有游行、有打官司、一直打到高级人民法院！最后还是败！！！这就是我的遭遇！！！"><a href="#事发在2019年11月，本来是找工作，最后变成买车，说好了有“免费”固定货源，还不就是为了卖车，价格贵，收费内容全靠编，交钱前一回事、交钱后一回事，说好的价格清单没有了，说好的办理运营证也没有了，有工商举报、有游行、有打官司、一直打到高级人民法院！最后还是败！！！这就是我的遭遇！！！" class="headerlink" title="事发在2019年11月，本来是找工作，最后变成买车，说好了有“免费”固定货源，还不就是为了卖车，价格贵，收费内容全靠编，交钱前一回事、交钱后一回事，说好的价格清单没有了，说好的办理运营证也没有了，有工商举报、有游行、有打官司、一直打到高级人民法院！最后还是败！！！这就是我的遭遇！！！"></a>事发在2019年11月，本来是找工作，最后变成买车，说好了有“免费”固定货源，还不就是为了卖车，价格贵，收费内容全靠编，交钱前一回事、交钱后一回事，说好的价格清单没有了，说好的办理运营证也没有了，有工商举报、有游行、有打官司、一直打到高级人民法院！最后还是败！！！这就是我的遭遇！！！</h2><p>​                                             <a href="/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85">点击  ☞（案件详情）</a>                        <a href="/%E9%A1%B9%E7%9B%AE%E8%AE%A1%E5%88%92%E4%B9%A6">点击 ☞ （项目计划书）</a></p>
+]]></content>
+      <tags>
+        <tag>简介</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hwxo分类和标签设置</title>
+    <url>/2021/11/21/hwxo%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<p>新建page页面</p>
+<p>分类</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo n page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>标签</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo n page tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在source目录找到对应的categories和tags目录，在目录中找到index.md，编辑index.md的Front-matter部分。如下；</p>
+<pre class="line-numbers language-none"><code class="language-none">---
+title: Hello World
+date: 2013&#x2F;7&#x2F;13 20:46:25
+---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在data：下面添加</p>
+<pre class="line-numbers language-none"><code class="language-none">type: categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在data：下面添加</p>
+<pre class="line-numbers language-none"><code class="language-none">type: tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo - 分类和标签设置</tag>
       </tags>
   </entry>
   <entry>

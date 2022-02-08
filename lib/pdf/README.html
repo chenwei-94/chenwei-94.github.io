@@ -30,7 +30,7 @@
   <meta name="description" content="PDF.js for NexT  Introduce  This is a plugin that allows to preview PDF files in the blog pages. If the browser supports embedded PDFs natively, NexT will create a &lt;embed&gt; tag and include the PD">
 <meta property="og:type" content="website">
 <meta property="og:title" content="提升自我价值">
-<meta property="og:url" content="https://www.19941115.top/lib/pdf/README">
+<meta property="og:url" content="https://www.19941115.top/lib/pdf/README.html">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="PDF.js for NexT  Introduce  This is a plugin that allows to preview PDF files in the blog pages. If the browser supports embedded PDFs natively, NexT will create a &lt;embed&gt; tag and include the PD">
 <meta property="og:locale" content="zh_CN">
@@ -781,7 +781,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

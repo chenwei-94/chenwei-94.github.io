@@ -30,7 +30,7 @@
   <meta name="description" content="☛二审判决点播广东省广州市中级人民法院民 事 判 决 书（2020）粤01民终23710号上诉人（原审原告）：陈伟，男，1994年11月15日出生，汉族，住湖南省宁远县。被上诉人（原审被告）：绿色出行（广州）汽车服务管理有限公司，住所地广东省广州市白云区鹤龙街鹤龙东路22-2号D栋（自主申报）。法定代表人：任春明。被上诉人（原审被告）：中远海运租赁有限公司，住所地中国（上海）自由贸易试验区福山路4">
 <meta property="og:type" content="website">
 <meta property="og:title" content="二审广州市中级人民法院">
-<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E4%BA%8C%E5%AE%A1%E5%B9%BF%E5%B7%9E%E5%B8%82%E4%B8%AD%E7%BA%A7%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2">
+<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E4%BA%8C%E5%AE%A1%E5%B9%BF%E5%B7%9E%E5%B8%82%E4%B8%AD%E7%BA%A7%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2.html">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="☛二审判决点播广东省广州市中级人民法院民 事 判 决 书（2020）粤01民终23710号上诉人（原审原告）：陈伟，男，1994年11月15日出生，汉族，住湖南省宁远县。被上诉人（原审被告）：绿色出行（广州）汽车服务管理有限公司，住所地广东省广州市白云区鹤龙街鹤龙东路22-2号D栋（自主申报）。法定代表人：任春明。被上诉人（原审被告）：中远海运租赁有限公司，住所地中国（上海）自由贸易试验区福山路4">
 <meta property="og:locale" content="zh_CN">
@@ -738,7 +738,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

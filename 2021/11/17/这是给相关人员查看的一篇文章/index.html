@@ -30,7 +30,7 @@
   <meta name="description" content="这是给“相关人员”查看的一篇文章!如题，这篇文章主要是给“相关人员”看的。因为下面的内容写的都是一些关于站长，向“相关人员”反映一些事情、表达我的一些意愿。 我经历的这次遭遇，找工作被骗、报警不归管辖、依法提交了两次游行申请才出书面告知（还是延迟版的）、诉讼又不理我的证据，最终无一例外就是败诉。而处理这一件事因管辖地问题，要分别在管辖地立案。比如“广州市白云区人民法院”案号：（2020）粤0111">
 <meta property="og:type" content="article">
 <meta property="og:title" content="这是给相关人员查看的一篇文章!">
-<meta property="og:url" content="https://www.19941115.top/2021/11/17/%E8%BF%99%E6%98%AF%E7%BB%99%E7%9B%B8%E5%85%B3%E4%BA%BA%E5%91%98%E6%9F%A5%E7%9C%8B%E7%9A%84%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
+<meta property="og:url" content="https://www.19941115.top/2021/11/17/%E8%BF%99%E6%98%AF%E7%BB%99%E7%9B%B8%E5%85%B3%E4%BA%BA%E5%91%98%E6%9F%A5%E7%9C%8B%E7%9A%84%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/index.html">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="这是给“相关人员”查看的一篇文章!如题，这篇文章主要是给“相关人员”看的。因为下面的内容写的都是一些关于站长，向“相关人员”反映一些事情、表达我的一些意愿。 我经历的这次遭遇，找工作被骗、报警不归管辖、依法提交了两次游行申请才出书面告知（还是延迟版的）、诉讼又不理我的证据，最终无一例外就是败诉。而处理这一件事因管辖地问题，要分别在管辖地立案。比如“广州市白云区人民法院”案号：（2020）粤0111">
 <meta property="og:locale" content="zh_CN">
@@ -949,7 +949,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

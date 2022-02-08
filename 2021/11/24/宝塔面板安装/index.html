@@ -30,7 +30,7 @@
   <meta name="description" content="宝塔面板安装记录购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。使用ssh连接服务器可以使用网页的SSH连接服务器 或者使用软件进行连接（如Xshenll 7），在命令行输入从宝塔Linux安装页面复制的安装脚本命令yum install -y wget &amp;&amp; wget -O install.sh http:">
 <meta property="og:type" content="article">
 <meta property="og:title" content="宝塔面板安装">
-<meta property="og:url" content="https://www.19941115.top/2021/11/24/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/">
+<meta property="og:url" content="https://www.19941115.top/2021/11/24/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/index.html">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="宝塔面板安装记录购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。使用ssh连接服务器可以使用网页的SSH连接服务器 或者使用软件进行连接（如Xshenll 7），在命令行输入从宝塔Linux安装页面复制的安装脚本命令yum install -y wget &amp;&amp; wget -O install.sh http:">
 <meta property="og:locale" content="zh_CN">
@@ -903,7 +903,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

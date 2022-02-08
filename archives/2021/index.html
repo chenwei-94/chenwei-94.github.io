@@ -29,7 +29,7 @@
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="提升自我价值">
-<meta property="og:url" content="https://www.19941115.top/archives/2021/">
+<meta property="og:url" content="https://www.19941115.top/archives/2021/index.html">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="陈 伟">
@@ -830,7 +830,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

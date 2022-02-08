@@ -30,7 +30,7 @@
   <meta name="description" content="Progress bar for NexT  Installation  If you want to use the CDN instead of clone this repo, please jump to the Step 3.  Step 1 &amp;rarr; Go to NexT dir  Change dir to NexT directory. There must be layout">
 <meta property="og:type" content="website">
 <meta property="og:title" content="提升自我价值">
-<meta property="og:url" content="https://www.19941115.top/lib/pace/README">
+<meta property="og:url" content="https://www.19941115.top/lib/pace/README.html">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="Progress bar for NexT  Installation  If you want to use the CDN instead of clone this repo, please jump to the Step 3.  Step 1 &amp;rarr; Go to NexT dir  Change dir to NexT directory. There must be layout">
 <meta property="og:locale" content="zh_CN">
@@ -776,7 +776,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

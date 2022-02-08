@@ -30,7 +30,7 @@
   <meta name="description" content="hexo常用命令新文章或者新的页面 hexo new [layout] &lt;title&gt;     参数 描述    -p, --path 自定义新文章的路径   -r, --replace 如果存在同名文章，将其替换   -s, --slug 文章的 Slug，作为新文章的文件名和发布后的 URL   Hexo 有三种默认布局：post、page 和 draft。    布局 路径 备注">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo常用命令">
-<meta property="og:url" content="https://www.19941115.top/2021/11/15/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+<meta property="og:url" content="https://www.19941115.top/2021/11/15/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="hexo常用命令新文章或者新的页面 hexo new [layout] &lt;title&gt;     参数 描述    -p, --path 自定义新文章的路径   -r, --replace 如果存在同名文章，将其替换   -s, --slug 文章的 Slug，作为新文章的文件名和发布后的 URL   Hexo 有三种默认布局：post、page 和 draft。    布局 路径 备注">
 <meta property="og:locale" content="zh_CN">
@@ -1202,7 +1202,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

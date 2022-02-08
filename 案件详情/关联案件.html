@@ -30,7 +30,7 @@
   <meta name="description" content="案号 审理法院 承办法官 结案日期    初案 （2020）粤0111民初8888号 广州市白云区人民法院 邓汝辉 2020&#x2F;8&#x2F;26   反担保案 （2020）粤0402民初9146号 珠海市香洲区人民法院 唐龙影 2020&#x2F;9&#x2F;21   租赁案 （2020）沪0109民初18562号 上海市虹口区人民法院 张静 2020&#x2F;12&#x2F;30   再审 （2020）粤01民终23710号 广东省">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关联案件">
-<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E5%85%B3%E8%81%94%E6%A1%88%E4%BB%B6">
+<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E5%85%B3%E8%81%94%E6%A1%88%E4%BB%B6.html">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="案号 审理法院 承办法官 结案日期    初案 （2020）粤0111民初8888号 广州市白云区人民法院 邓汝辉 2020&#x2F;8&#x2F;26   反担保案 （2020）粤0402民初9146号 珠海市香洲区人民法院 唐龙影 2020&#x2F;9&#x2F;21   租赁案 （2020）沪0109民初18562号 上海市虹口区人民法院 张静 2020&#x2F;12&#x2F;30   再审 （2020）粤01民终23710号 广东省">
 <meta property="og:locale" content="zh_CN">
@@ -784,7 +784,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

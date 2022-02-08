@@ -10,36 +10,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hwxo分类和标签设置</title>
-    <url>/2021/11/21/hwxo%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<p>新建page页面</p>
-<p>分类</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo n page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>标签</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo n page tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>在source目录找到对应的categories和tags目录，在目录中找到index.md，编辑index.md的Front-matter部分。如下；</p>
-<pre class="line-numbers language-none"><code class="language-none">---
-title: Hello World
-date: 2013&#x2F;7&#x2F;13 20:46:25
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>在data：下面添加</p>
-<pre class="line-numbers language-none"><code class="language-none">type: categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>在data：下面添加</p>
-<pre class="line-numbers language-none"><code class="language-none">type: tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo - 分类和标签设置</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo常用命令</title>
     <url>/2021/11/15/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p>新文章或者新的页面</p>
@@ -360,6 +330,36 @@ $ hexo generate --config custom.yml,custom2.json,custom3.yml<span aria-hidden="t
       </tags>
   </entry>
   <entry>
+    <title>Hwxo分类和标签设置</title>
+    <url>/2021/11/21/hwxo%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<p>新建page页面</p>
+<p>分类</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo n page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>标签</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo n page tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在source目录找到对应的categories和tags目录，在目录中找到index.md，编辑index.md的Front-matter部分。如下；</p>
+<pre class="line-numbers language-none"><code class="language-none">---
+title: Hello World
+date: 2013&#x2F;7&#x2F;13 20:46:25
+---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在data：下面添加</p>
+<pre class="line-numbers language-none"><code class="language-none">type: categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在data：下面添加</p>
+<pre class="line-numbers language-none"><code class="language-none">type: tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo - 分类和标签设置</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>宝塔面板安装</title>
     <url>/2021/11/24/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<h1 id="宝塔面板安装记录"><a href="#宝塔面板安装记录" class="headerlink" title="宝塔面板安装记录"></a>宝塔面板安装记录</h1><h3 id="购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。"><a href="#购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。" class="headerlink" title="购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。"></a>购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。</h3><h3 id="使用ssh连接服务器"><a href="#使用ssh连接服务器" class="headerlink" title="使用ssh连接服务器"></a>使用ssh连接服务器</h3><h3 id="可以使用网页的SSH连接服务器"><a href="#可以使用网页的SSH连接服务器" class="headerlink" title="可以使用网页的SSH连接服务器"></a>可以使用网页的SSH连接服务器</h3><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/1f309fd6-f5f6-4060-8785-952167b699a7.png" alt="网页连接服务器"></p>
@@ -389,19 +389,6 @@ $ hexo generate --config custom.yml,custom2.json,custom3.yml<span aria-hidden="t
       </categories>
       <tags>
         <tag>简介</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>维权游行申请</title>
-    <url>/2021/11/24/%E7%BB%B4%E6%9D%83%E6%B8%B8%E8%A1%8C%E7%94%B3%E8%AF%B7/</url>
-    <content><![CDATA[<h1 id="游行"><a href="#游行" class="headerlink" title="游行"></a>游行</h1><h2 id="nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-遭遇套路后，我就开始准备维权。打过12315和12345投诉，也上过消委会小程序投诉。调解不成就准备起诉了，网上查过很多资料，开始发现这是一个套路。我需要事件扩大因为这样才能增加曝光，才找到其他的“被害者”，至少在上牌那天就已经遇到了一个同在绿色出行买车上牌的家伙，我估计肯定有不少受害人。在前几次去白云公安局报警又不受理，在网上又恰巧看到一些游行的案例。既然游行可以增加一点可以加快处理案件的希望那就试一试，就网上查找了一些文书格式，准备设备和资料然后去白云公安那边交游行申请书，因为看到过一些没有经过允许就举牌拿喇叭上路逛的案例，都被请去喝茶了，既然已经知道这种行为是需要申请的，那就按规矩来吧！不然维权没搞成反而被请去喝茶就得不偿失了！"><a href="#nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-遭遇套路后，我就开始准备维权。打过12315和12345投诉，也上过消委会小程序投诉。调解不成就准备起诉了，网上查过很多资料，开始发现这是一个套路。我需要事件扩大因为这样才能增加曝光，才找到其他的“被害者”，至少在上牌那天就已经遇到了一个同在绿色出行买车上牌的家伙，我估计肯定有不少受害人。在前几次去白云公安局报警又不受理，在网上又恰巧看到一些游行的案例。既然游行可以增加一点可以加快处理案件的希望那就试一试，就网上查找了一些文书格式，准备设备和资料然后去白云公安那边交游行申请书，因为看到过一些没有经过允许就举牌拿喇叭上路逛的案例，都被请去喝茶了，既然已经知道这种行为是需要申请的，那就按规矩来吧！不然维权没搞成反而被请去喝茶就得不偿失了！" class="headerlink" title="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;遭遇套路后，我就开始准备维权。打过12315和12345投诉，也上过消委会小程序投诉。调解不成就准备起诉了，网上查过很多资料，开始发现这是一个套路。我需要事件扩大因为这样才能增加曝光，才找到其他的“被害者”，至少在上牌那天就已经遇到了一个同在绿色出行买车上牌的家伙，我估计肯定有不少受害人。在前几次去白云公安局报警又不受理，在网上又恰巧看到一些游行的案例。既然游行可以增加一点可以加快处理案件的希望那就试一试，就网上查找了一些文书格式，准备设备和资料然后去白云公安那边交游行申请书，因为看到过一些没有经过允许就举牌拿喇叭上路逛的案例，都被请去喝茶了，既然已经知道这种行为是需要申请的，那就按规矩来吧！不然维权没搞成反而被请去喝茶就得不偿失了！"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;遭遇套路后，我就开始准备维权。打过12315和12345投诉，也上过消委会小程序投诉。调解不成就准备起诉了，网上查过很多资料，开始发现这是一个套路。我需要事件扩大因为这样才能增加曝光，才找到其他的“被害者”，至少在上牌那天就已经遇到了一个同在绿色出行买车上牌的家伙，我估计肯定有不少受害人。在前几次去白云公安局报警又不受理，在网上又恰巧看到一些游行的案例。既然游行可以增加一点可以加快处理案件的希望那就试一试，就网上查找了一些文书格式，准备设备和资料然后去白云公安那边交游行申请书，因为看到过一些没有经过允许就举牌拿喇叭上路逛的案例，都被请去喝茶了，既然已经知道这种行为是需要申请的，那就按规矩来吧！不然维权没搞成反而被请去喝茶就得不偿失了！</h2><h2 id="nbsp-nbsp-nbsp-申请游行需要游行申请书，相关的格式和资料网上都能找到这里就不细说了。早在2020年9月24日就去过公安局了，反馈一直到2021年1月22日才出，而且结果都直接寄回我老家的，都不是寄我住广州这里的地址。"><a href="#nbsp-nbsp-nbsp-申请游行需要游行申请书，相关的格式和资料网上都能找到这里就不细说了。早在2020年9月24日就去过公安局了，反馈一直到2021年1月22日才出，而且结果都直接寄回我老家的，都不是寄我住广州这里的地址。" class="headerlink" title="&nbsp;         &nbsp;&nbsp;申请游行需要游行申请书，相关的格式和资料网上都能找到这里就不细说了。早在2020年9月24日就去过公安局了，反馈一直到2021年1月22日才出，而且结果都直接寄回我老家的，都不是寄我住广州这里的地址。"></a>&nbsp;         &nbsp;&nbsp;申请游行需要游行申请书，相关的格式和资料网上都能找到这里就不细说了。早在2020年9月24日就去过公安局了，反馈一直到2021年1月22日才出，而且结果都直接寄回我老家的，都不是寄我住广州这里的地址。</h2><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/bbaf8cb8-10d0-4ba0-818b-b2d6be8a772a.jpg" alt="首次去公安申请游行"></p>
-<p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/e1fc7a77-e3bf-41b0-80b3-f342b5a798b5.jpg" alt="游行申请"></p>
-]]></content>
-      <categories>
-        <category>案件</category>
-      </categories>
-      <tags>
-        <tag>游行</tag>
       </tags>
   </entry>
   <entry>
@@ -466,6 +453,19 @@ $ hexo generate --config custom.yml,custom2.json,custom3.yml<span aria-hidden="t
       </categories>
       <tags>
         <tag>自述</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>维权游行申请</title>
+    <url>/2021/11/24/%E7%BB%B4%E6%9D%83%E6%B8%B8%E8%A1%8C%E7%94%B3%E8%AF%B7/</url>
+    <content><![CDATA[<h1 id="游行"><a href="#游行" class="headerlink" title="游行"></a>游行</h1><h2 id="nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-遭遇套路后，我就开始准备维权。打过12315和12345投诉，也上过消委会小程序投诉。调解不成就准备起诉了，网上查过很多资料，开始发现这是一个套路。我需要事件扩大因为这样才能增加曝光，才找到其他的“被害者”，至少在上牌那天就已经遇到了一个同在绿色出行买车上牌的家伙，我估计肯定有不少受害人。在前几次去白云公安局报警又不受理，在网上又恰巧看到一些游行的案例。既然游行可以增加一点可以加快处理案件的希望那就试一试，就网上查找了一些文书格式，准备设备和资料然后去白云公安那边交游行申请书，因为看到过一些没有经过允许就举牌拿喇叭上路逛的案例，都被请去喝茶了，既然已经知道这种行为是需要申请的，那就按规矩来吧！不然维权没搞成反而被请去喝茶就得不偿失了！"><a href="#nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-遭遇套路后，我就开始准备维权。打过12315和12345投诉，也上过消委会小程序投诉。调解不成就准备起诉了，网上查过很多资料，开始发现这是一个套路。我需要事件扩大因为这样才能增加曝光，才找到其他的“被害者”，至少在上牌那天就已经遇到了一个同在绿色出行买车上牌的家伙，我估计肯定有不少受害人。在前几次去白云公安局报警又不受理，在网上又恰巧看到一些游行的案例。既然游行可以增加一点可以加快处理案件的希望那就试一试，就网上查找了一些文书格式，准备设备和资料然后去白云公安那边交游行申请书，因为看到过一些没有经过允许就举牌拿喇叭上路逛的案例，都被请去喝茶了，既然已经知道这种行为是需要申请的，那就按规矩来吧！不然维权没搞成反而被请去喝茶就得不偿失了！" class="headerlink" title="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;遭遇套路后，我就开始准备维权。打过12315和12345投诉，也上过消委会小程序投诉。调解不成就准备起诉了，网上查过很多资料，开始发现这是一个套路。我需要事件扩大因为这样才能增加曝光，才找到其他的“被害者”，至少在上牌那天就已经遇到了一个同在绿色出行买车上牌的家伙，我估计肯定有不少受害人。在前几次去白云公安局报警又不受理，在网上又恰巧看到一些游行的案例。既然游行可以增加一点可以加快处理案件的希望那就试一试，就网上查找了一些文书格式，准备设备和资料然后去白云公安那边交游行申请书，因为看到过一些没有经过允许就举牌拿喇叭上路逛的案例，都被请去喝茶了，既然已经知道这种行为是需要申请的，那就按规矩来吧！不然维权没搞成反而被请去喝茶就得不偿失了！"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;遭遇套路后，我就开始准备维权。打过12315和12345投诉，也上过消委会小程序投诉。调解不成就准备起诉了，网上查过很多资料，开始发现这是一个套路。我需要事件扩大因为这样才能增加曝光，才找到其他的“被害者”，至少在上牌那天就已经遇到了一个同在绿色出行买车上牌的家伙，我估计肯定有不少受害人。在前几次去白云公安局报警又不受理，在网上又恰巧看到一些游行的案例。既然游行可以增加一点可以加快处理案件的希望那就试一试，就网上查找了一些文书格式，准备设备和资料然后去白云公安那边交游行申请书，因为看到过一些没有经过允许就举牌拿喇叭上路逛的案例，都被请去喝茶了，既然已经知道这种行为是需要申请的，那就按规矩来吧！不然维权没搞成反而被请去喝茶就得不偿失了！</h2><h2 id="nbsp-nbsp-nbsp-申请游行需要游行申请书，相关的格式和资料网上都能找到这里就不细说了。早在2020年9月24日就去过公安局了，反馈一直到2021年1月22日才出，而且结果都直接寄回我老家的，都不是寄我住广州这里的地址。"><a href="#nbsp-nbsp-nbsp-申请游行需要游行申请书，相关的格式和资料网上都能找到这里就不细说了。早在2020年9月24日就去过公安局了，反馈一直到2021年1月22日才出，而且结果都直接寄回我老家的，都不是寄我住广州这里的地址。" class="headerlink" title="&nbsp;         &nbsp;&nbsp;申请游行需要游行申请书，相关的格式和资料网上都能找到这里就不细说了。早在2020年9月24日就去过公安局了，反馈一直到2021年1月22日才出，而且结果都直接寄回我老家的，都不是寄我住广州这里的地址。"></a>&nbsp;         &nbsp;&nbsp;申请游行需要游行申请书，相关的格式和资料网上都能找到这里就不细说了。早在2020年9月24日就去过公安局了，反馈一直到2021年1月22日才出，而且结果都直接寄回我老家的，都不是寄我住广州这里的地址。</h2><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/bbaf8cb8-10d0-4ba0-818b-b2d6be8a772a.jpg" alt="首次去公安申请游行"></p>
+<p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/e1fc7a77-e3bf-41b0-80b3-f342b5a798b5.jpg" alt="游行申请"></p>
+]]></content>
+      <categories>
+        <category>案件</category>
+      </categories>
+      <tags>
+        <tag>游行</tag>
       </tags>
   </entry>
 </search>

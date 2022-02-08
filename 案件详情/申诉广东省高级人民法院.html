@@ -30,7 +30,7 @@
   <meta name="description" content="申诉被驳回了！     我不服！！！为什么我说的前一部分采纳了！！！后面又当没听见呢？？？我自认为的可以信！？ 后面有证据的反而不能信！？就算了不信做一下证据鉴定也可以啊！！！？？？ 我是不会放弃的！有证据都这样冤案！？要是那些没注意没保留证据那不是就吃定这个哑巴亏了！！！？？？">
 <meta property="og:type" content="website">
 <meta property="og:title" content="申诉广东省高级人民法院">
-<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E7%94%B3%E8%AF%89%E5%B9%BF%E4%B8%9C%E7%9C%81%E9%AB%98%E7%BA%A7%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2.html">
+<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E7%94%B3%E8%AF%89%E5%B9%BF%E4%B8%9C%E7%9C%81%E9%AB%98%E7%BA%A7%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="申诉被驳回了！     我不服！！！为什么我说的前一部分采纳了！！！后面又当没听见呢？？？我自认为的可以信！？ 后面有证据的反而不能信！？就算了不信做一下证据鉴定也可以啊！！！？？？ 我是不会放弃的！有证据都这样冤案！？要是那些没注意没保留证据那不是就吃定这个哑巴亏了！！！？？？">
 <meta property="og:locale" content="zh_CN">
@@ -753,7 +753,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

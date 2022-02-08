@@ -30,7 +30,7 @@
   <meta name="description" content="☛(判决-一审)     ☛(判决-二审)      ☛(判决-申诉)    ☛(证据)    ☛(案件分析)     ☛(关联案件)我认为我的遭遇和下面新闻报道相差无几！ 央视财经 2020年01月19日 12:58 揭秘“货源服务费”（上）：承诺月入过万？ 货车司机——只为高价卖车！ 新闻来源忘记了☞这里还有一个网上的文章！全国各地都有发生的一个“经典套路”，请大家务必小心！！！备注：类似于招">
 <meta property="og:type" content="website">
 <meta property="og:title" content="案件详情">
-<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85.html">
+<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="☛(判决-一审)     ☛(判决-二审)      ☛(判决-申诉)    ☛(证据)    ☛(案件分析)     ☛(关联案件)我认为我的遭遇和下面新闻报道相差无几！ 央视财经 2020年01月19日 12:58 揭秘“货源服务费”（上）：承诺月入过万？ 货车司机——只为高价卖车！ 新闻来源忘记了☞这里还有一个网上的文章！全国各地都有发生的一个“经典套路”，请大家务必小心！！！备注：类似于招">
 <meta property="og:locale" content="zh_CN">
@@ -728,7 +728,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

@@ -30,7 +30,7 @@
   <meta name="description" content="☛ 一审判决点播广东省广州市白云区人民法院民 事 判 决 书（2020）粤0111民初8888号原告：陈伟，男，1994年11月15日出生，汉族，身份证住址湖南省宁远县，被告：绿色出行（广州）汽车服务管理有限公司，住所地广东省广州市白云区鹤龙街鹤龙东路22-2号D栋（自主申报）。法定代表人：邓佳佳。委托诉讼代理人：高俊，广东金桥百信律师事务所律师。委托诉讼代理人：唐利军，男，1982年5月20日出">
 <meta property="og:type" content="website">
 <meta property="og:title" content="一审广州市白云区人民法院">
-<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E4%B8%80%E5%AE%A1%E5%B9%BF%E5%B7%9E%E5%B8%82%E7%99%BD%E4%BA%91%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2.html">
+<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E4%B8%80%E5%AE%A1%E5%B9%BF%E5%B7%9E%E5%B8%82%E7%99%BD%E4%BA%91%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="☛ 一审判决点播广东省广州市白云区人民法院民 事 判 决 书（2020）粤0111民初8888号原告：陈伟，男，1994年11月15日出生，汉族，身份证住址湖南省宁远县，被告：绿色出行（广州）汽车服务管理有限公司，住所地广东省广州市白云区鹤龙街鹤龙东路22-2号D栋（自主申报）。法定代表人：邓佳佳。委托诉讼代理人：高俊，广东金桥百信律师事务所律师。委托诉讼代理人：唐利军，男，1982年5月20日出">
 <meta property="og:locale" content="zh_CN">
@@ -738,7 +738,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

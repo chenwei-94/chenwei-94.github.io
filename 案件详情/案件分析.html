@@ -30,7 +30,7 @@
   <meta name="description" content="这里写的是关于案件的分析，我发表我自己的一些看法。 从我和我老婆的微信聊天记录来看，我在2019年11月15日上午去了对方的门店了解了一些情况，并要了我老婆的一些资料用来申请融资的一个情况。 同时也签订了那个“车辆销售定金合同”，定车合同我再放出来吧，合同上面有签订的时间。   这里开始下面是2019年11月16日的内容了这一个是通话录音，在交了5000定金后回去等征信通知后，加了贷款业务员了解情">
 <meta property="og:type" content="website">
 <meta property="og:title" content="案件分析">
-<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E6%A1%88%E4%BB%B6%E5%88%86%E6%9E%90.html">
+<meta property="og:url" content="https://www.19941115.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85/%E6%A1%88%E4%BB%B6%E5%88%86%E6%9E%90">
 <meta property="og:site_name" content="提升自我价值">
 <meta property="og:description" content="这里写的是关于案件的分析，我发表我自己的一些看法。 从我和我老婆的微信聊天记录来看，我在2019年11月15日上午去了对方的门店了解了一些情况，并要了我老婆的一些资料用来申请融资的一个情况。 同时也签订了那个“车辆销售定金合同”，定车合同我再放出来吧，合同上面有签订的时间。   这里开始下面是2019年11月16日的内容了这一个是通话录音，在交了5000定金后回去等征信通知后，加了贷款业务员了解情">
 <meta property="og:locale" content="zh_CN">
@@ -1173,7 +1173,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

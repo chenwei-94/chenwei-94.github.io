@@ -10,68 +10,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hwxo分类和标签设置</title>
-    <url>/2021/11/21/hwxo%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<p>新建page页面</p>
-<p>分类</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo n page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>标签</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo n page tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>在source目录找到对应的categories和tags目录，在目录中找到index.md，编辑index.md的Front-matter部分。如下；</p>
-<pre class="line-numbers language-none"><code class="language-none">---
-title: Hello World
-date: 2013&#x2F;7&#x2F;13 20:46:25
----<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>在data：下面添加</p>
-<pre class="line-numbers language-none"><code class="language-none">type: categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>在data：下面添加</p>
-<pre class="line-numbers language-none"><code class="language-none">type: tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo - 分类和标签设置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>宝塔面板安装</title>
-    <url>/2021/11/24/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<h1 id="宝塔面板安装记录"><a href="#宝塔面板安装记录" class="headerlink" title="宝塔面板安装记录"></a>宝塔面板安装记录</h1><h3 id="购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。"><a href="#购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。" class="headerlink" title="购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。"></a>购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。</h3><h3 id="使用ssh连接服务器"><a href="#使用ssh连接服务器" class="headerlink" title="使用ssh连接服务器"></a>使用ssh连接服务器</h3><h3 id="可以使用网页的SSH连接服务器"><a href="#可以使用网页的SSH连接服务器" class="headerlink" title="可以使用网页的SSH连接服务器"></a>可以使用网页的SSH连接服务器</h3><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/1f309fd6-f5f6-4060-8785-952167b699a7.png" alt="网页连接服务器"></p>
-<h3 id="或者使用软件进行连接（如Xshenll-7），在命令行输入从宝塔Linux安装页面复制的安装脚本命令"><a href="#或者使用软件进行连接（如Xshenll-7），在命令行输入从宝塔Linux安装页面复制的安装脚本命令" class="headerlink" title="或者使用软件进行连接（如Xshenll 7），在命令行输入从宝塔Linux安装页面复制的安装脚本命令"></a>或者使用软件进行连接（如<a href="https://www.netsarang.com/zh/Xshell/">Xshenll 7</a>），在命令行输入从宝塔Linux安装页面复制的安装脚本命令</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">yum install -y wget &amp;&amp; wget -O install.sh http:&#x2F;&#x2F;download.bt.cn&#x2F;install&#x2F;install_6.0.sh &amp;&amp; sh install.sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-
-
-<h2 id="在-Do-you-want-to-install-Bt-Panel-to-the-www-directory-now-y-n-按键盘-y"><a href="#在-Do-you-want-to-install-Bt-Panel-to-the-www-directory-now-y-n-按键盘-y" class="headerlink" title="在 Do you want to install Bt-Panel to the /www directory now?(y/n):  按键盘 y"></a>在 Do you want to install Bt-Panel to the /www directory now?(y/n):  按键盘 y</h2><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/83017db5-f896-48d4-ac0a-a0148f11c2e1.png" alt="宝塔安装确认Y"></p>
-<h3 id="安装完成后会给一个面板地址，需要在云服务器管理控制台打开相应的端口-8888-进入控制台找到防火墙-安全组-添加一个TCP-端口为8888-的端口"><a href="#安装完成后会给一个面板地址，需要在云服务器管理控制台打开相应的端口-8888-进入控制台找到防火墙-安全组-添加一个TCP-端口为8888-的端口" class="headerlink" title="安装完成后会给一个面板地址，需要在云服务器管理控制台打开相应的端口 8888   进入控制台找到防火墙/安全组  添加一个TCP  端口为8888 的端口"></a>安装完成后会给一个面板地址，需要在云服务器管理控制台打开相应的端口 8888   进入控制台找到防火墙/安全组  添加一个TCP  端口为8888 的端口</h3><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/c949bc9a-4f4d-4a74-bc20-b3188a0b5bed.png" alt="打开服务器8888端口"></p>
-<h3 id="完成后打开命令行给的外网地址-外网面板地址是类似这样的-http-xx-xx-xx-xx-8888-xxxxxx，打开后进去后就是面板主页了，"><a href="#完成后打开命令行给的外网地址-外网面板地址是类似这样的-http-xx-xx-xx-xx-8888-xxxxxx，打开后进去后就是面板主页了，" class="headerlink" title="完成后打开命令行给的外网地址,外网面板地址是类似这样的: http://xx.xx.xx.xx.:8888/xxxxxx，打开后进去后就是面板主页了，"></a>完成后打开命令行给的外网地址,外网面板地址是类似这样的: <a href="http://xx.xx.xx.xx.:8888/xxxxxx%EF%BC%8C%E6%89%93%E5%BC%80%E5%90%8E%E8%BF%9B%E5%8E%BB%E5%90%8E%E5%B0%B1%E6%98%AF%E9%9D%A2%E6%9D%BF%E4%B8%BB%E9%A1%B5%E4%BA%86%EF%BC%8C">http://xx.xx.xx.xx.:8888/xxxxxx，打开后进去后就是面板主页了，</a></h3><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/f1ee32d6-0424-479e-99bb-a58bc57413eb.png" alt="宝塔主页"></p>
-<h3 id="为了服务器安全！！！-切记要修改-面板端口，安全入口，面板用户，面板密码，"><a href="#为了服务器安全！！！-切记要修改-面板端口，安全入口，面板用户，面板密码，" class="headerlink" title="为了服务器安全！！！ 切记要修改 面板端口，安全入口，面板用户，面板密码，"></a>为了服务器安全！！！ 切记要修改 面板端口，安全入口，面板用户，面板密码，</h3><h3 id="给面板加上域名解析"><a href="#给面板加上域名解析" class="headerlink" title="给面板加上域名解析"></a>给面板加上域名解析</h3><h3 id="进入域名DNS解析管理，添加一个记录类型为-A-记录值-xxxx-xxxx-xxxx-xxxx-服务器ipV4的地址"><a href="#进入域名DNS解析管理，添加一个记录类型为-A-记录值-xxxx-xxxx-xxxx-xxxx-服务器ipV4的地址" class="headerlink" title="进入域名DNS解析管理，添加一个记录类型为 A 记录值 xxxx.xxxx.xxxx.xxxx  (服务器ipV4的地址)"></a>进入域名DNS解析管理，添加一个记录类型为 A 记录值 xxxx.xxxx.xxxx.xxxx  (服务器ipV4的地址)</h3><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/6f69f2d0-f13a-403d-b024-2a1cfdb2e389.png" alt="DNS解析"></p>
-]]></content>
-      <categories>
-        <category>运维</category>
-      </categories>
-      <tags>
-        <tag>宝塔</tag>
-        <tag>DNS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>建站的由衷！</title>
-    <url>/2021/11/16/%E5%BB%BA%E7%AB%99%E7%9A%84%E7%94%B1%E8%A1%B7%EF%BC%81/</url>
-    <content><![CDATA[<h1 id="建站的理由！"><a href="#建站的理由！" class="headerlink" title="建站的理由！"></a>建站的理由！</h1><h2 id="原本自学前端知识，是为了学习开发小程序。后来因为一场官司让我感到了危机，这让我意识到这个社会的另一面，让我感到前途迷茫、想到因为这个案子带来的后续影响我就头皮发麻。我意识到我需要尽全力去做补救，一审不理想、我就上诉二审，二审还是一样，我便申诉再审，如再审还是一样，我将申诉至最高法院或检察院，或许我还会向相关的部门提交信访材料，去争取我的公道。同时也将我的遭遇尽可能的让更多人知道，让大家知道这种情况是怎么样，让大家别再被骗了。-建设这个网站是为了记录我的这个遭遇，和我的处理方式与最后的结果，同时也记录一些其他的内容。发布相关内容在微博或者其他的网站上，可能连发布的审核都过不了，因为平台不愿意相信我，他们觉得我发布的内容有问题，他们不想承担因我发布的内容带来的一些不可预料的后果。-所以我自己建设网站，自己想发布什么内容就发布什么内容，在不违反相关法律的情况下，我说什么都可以。反正网站是我的，出了什么问题也是找我。"><a href="#原本自学前端知识，是为了学习开发小程序。后来因为一场官司让我感到了危机，这让我意识到这个社会的另一面，让我感到前途迷茫、想到因为这个案子带来的后续影响我就头皮发麻。我意识到我需要尽全力去做补救，一审不理想、我就上诉二审，二审还是一样，我便申诉再审，如再审还是一样，我将申诉至最高法院或检察院，或许我还会向相关的部门提交信访材料，去争取我的公道。同时也将我的遭遇尽可能的让更多人知道，让大家知道这种情况是怎么样，让大家别再被骗了。-建设这个网站是为了记录我的这个遭遇，和我的处理方式与最后的结果，同时也记录一些其他的内容。发布相关内容在微博或者其他的网站上，可能连发布的审核都过不了，因为平台不愿意相信我，他们觉得我发布的内容有问题，他们不想承担因我发布的内容带来的一些不可预料的后果。-所以我自己建设网站，自己想发布什么内容就发布什么内容，在不违反相关法律的情况下，我说什么都可以。反正网站是我的，出了什么问题也是找我。" class="headerlink" title="原本自学前端知识，是为了学习开发小程序。后来因为一场官司让我感到了危机，这让我意识到这个社会的另一面，让我感到前途迷茫、想到因为这个案子带来的后续影响我就头皮发麻。我意识到我需要尽全力去做补救，一审不理想、我就上诉二审，二审还是一样，我便申诉再审，如再审还是一样，我将申诉至最高法院或检察院，或许我还会向相关的部门提交信访材料，去争取我的公道。同时也将我的遭遇尽可能的让更多人知道，让大家知道这种情况是怎么样，让大家别再被骗了。     建设这个网站是为了记录我的这个遭遇，和我的处理方式与最后的结果，同时也记录一些其他的内容。发布相关内容在微博或者其他的网站上，可能连发布的审核都过不了，因为平台不愿意相信我，他们觉得我发布的内容有问题，他们不想承担因我发布的内容带来的一些不可预料的后果。     所以我自己建设网站，自己想发布什么内容就发布什么内容，在不违反相关法律的情况下，我说什么都可以。反正网站是我的，出了什么问题也是找我。"></a>原本自学前端知识，是为了学习开发小程序。后来因为一场官司让我感到了危机，这让我意识到这个社会的另一面，让我感到前途迷茫、想到因为这个案子带来的后续影响我就头皮发麻。我意识到我需要尽全力去做补救，一审不理想、我就上诉二审，二审还是一样，我便申诉再审，如再审还是一样，我将申诉至最高法院或检察院，或许我还会向相关的部门提交信访材料，去争取我的公道。同时也将我的遭遇尽可能的让更多人知道，让大家知道这种情况是怎么样，让大家别再被骗了。     建设这个网站是为了记录我的这个遭遇，和我的处理方式与最后的结果，同时也记录一些其他的内容。发布相关内容在微博或者其他的网站上，可能连发布的审核都过不了，因为平台不愿意相信我，他们觉得我发布的内容有问题，他们不想承担因我发布的内容带来的一些不可预料的后果。     所以我自己建设网站，自己想发布什么内容就发布什么内容，在不违反相关法律的情况下，我说什么都可以。反正网站是我的，出了什么问题也是找我。</h2>]]></content>
-      <categories>
-        <category>简介</category>
-      </categories>
-      <tags>
-        <tag>简介</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo常用命令</title>
     <url>/2021/11/15/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p>新文章或者新的页面</p>
@@ -389,6 +327,68 @@ $ hexo generate --config custom.yml,custom2.json,custom3.yml<span aria-hidden="t
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hwxo分类和标签设置</title>
+    <url>/2021/11/21/hwxo%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<p>新建page页面</p>
+<p>分类</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo n page categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>标签</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo n page tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在source目录找到对应的categories和tags目录，在目录中找到index.md，编辑index.md的Front-matter部分。如下；</p>
+<pre class="line-numbers language-none"><code class="language-none">---
+title: Hello World
+date: 2013&#x2F;7&#x2F;13 20:46:25
+---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在data：下面添加</p>
+<pre class="line-numbers language-none"><code class="language-none">type: categories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在data：下面添加</p>
+<pre class="line-numbers language-none"><code class="language-none">type: tags<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo - 分类和标签设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>宝塔面板安装</title>
+    <url>/2021/11/24/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<h1 id="宝塔面板安装记录"><a href="#宝塔面板安装记录" class="headerlink" title="宝塔面板安装记录"></a>宝塔面板安装记录</h1><h3 id="购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。"><a href="#购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。" class="headerlink" title="购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。"></a>购买了一个轻量服务器，像我这种对Linux不熟悉的还是安装一个图形化管理面板好管理一点，运营服务器使用宝塔面板图形化管理。</h3><h3 id="使用ssh连接服务器"><a href="#使用ssh连接服务器" class="headerlink" title="使用ssh连接服务器"></a>使用ssh连接服务器</h3><h3 id="可以使用网页的SSH连接服务器"><a href="#可以使用网页的SSH连接服务器" class="headerlink" title="可以使用网页的SSH连接服务器"></a>可以使用网页的SSH连接服务器</h3><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/1f309fd6-f5f6-4060-8785-952167b699a7.png" alt="网页连接服务器"></p>
+<h3 id="或者使用软件进行连接（如Xshenll-7），在命令行输入从宝塔Linux安装页面复制的安装脚本命令"><a href="#或者使用软件进行连接（如Xshenll-7），在命令行输入从宝塔Linux安装页面复制的安装脚本命令" class="headerlink" title="或者使用软件进行连接（如Xshenll 7），在命令行输入从宝塔Linux安装页面复制的安装脚本命令"></a>或者使用软件进行连接（如<a href="https://www.netsarang.com/zh/Xshell/">Xshenll 7</a>），在命令行输入从宝塔Linux安装页面复制的安装脚本命令</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">yum install -y wget &amp;&amp; wget -O install.sh http:&#x2F;&#x2F;download.bt.cn&#x2F;install&#x2F;install_6.0.sh &amp;&amp; sh install.sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+
+<h2 id="在-Do-you-want-to-install-Bt-Panel-to-the-www-directory-now-y-n-按键盘-y"><a href="#在-Do-you-want-to-install-Bt-Panel-to-the-www-directory-now-y-n-按键盘-y" class="headerlink" title="在 Do you want to install Bt-Panel to the /www directory now?(y/n):  按键盘 y"></a>在 Do you want to install Bt-Panel to the /www directory now?(y/n):  按键盘 y</h2><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/83017db5-f896-48d4-ac0a-a0148f11c2e1.png" alt="宝塔安装确认Y"></p>
+<h3 id="安装完成后会给一个面板地址，需要在云服务器管理控制台打开相应的端口-8888-进入控制台找到防火墙-安全组-添加一个TCP-端口为8888-的端口"><a href="#安装完成后会给一个面板地址，需要在云服务器管理控制台打开相应的端口-8888-进入控制台找到防火墙-安全组-添加一个TCP-端口为8888-的端口" class="headerlink" title="安装完成后会给一个面板地址，需要在云服务器管理控制台打开相应的端口 8888   进入控制台找到防火墙/安全组  添加一个TCP  端口为8888 的端口"></a>安装完成后会给一个面板地址，需要在云服务器管理控制台打开相应的端口 8888   进入控制台找到防火墙/安全组  添加一个TCP  端口为8888 的端口</h3><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/c949bc9a-4f4d-4a74-bc20-b3188a0b5bed.png" alt="打开服务器8888端口"></p>
+<h3 id="完成后打开命令行给的外网地址-外网面板地址是类似这样的-http-xx-xx-xx-xx-8888-xxxxxx，打开后进去后就是面板主页了，"><a href="#完成后打开命令行给的外网地址-外网面板地址是类似这样的-http-xx-xx-xx-xx-8888-xxxxxx，打开后进去后就是面板主页了，" class="headerlink" title="完成后打开命令行给的外网地址,外网面板地址是类似这样的: http://xx.xx.xx.xx.:8888/xxxxxx，打开后进去后就是面板主页了，"></a>完成后打开命令行给的外网地址,外网面板地址是类似这样的: <a href="http://xx.xx.xx.xx.:8888/xxxxxx%EF%BC%8C%E6%89%93%E5%BC%80%E5%90%8E%E8%BF%9B%E5%8E%BB%E5%90%8E%E5%B0%B1%E6%98%AF%E9%9D%A2%E6%9D%BF%E4%B8%BB%E9%A1%B5%E4%BA%86%EF%BC%8C">http://xx.xx.xx.xx.:8888/xxxxxx，打开后进去后就是面板主页了，</a></h3><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/f1ee32d6-0424-479e-99bb-a58bc57413eb.png" alt="宝塔主页"></p>
+<h3 id="为了服务器安全！！！-切记要修改-面板端口，安全入口，面板用户，面板密码，"><a href="#为了服务器安全！！！-切记要修改-面板端口，安全入口，面板用户，面板密码，" class="headerlink" title="为了服务器安全！！！ 切记要修改 面板端口，安全入口，面板用户，面板密码，"></a>为了服务器安全！！！ 切记要修改 面板端口，安全入口，面板用户，面板密码，</h3><h3 id="给面板加上域名解析"><a href="#给面板加上域名解析" class="headerlink" title="给面板加上域名解析"></a>给面板加上域名解析</h3><h3 id="进入域名DNS解析管理，添加一个记录类型为-A-记录值-xxxx-xxxx-xxxx-xxxx-服务器ipV4的地址"><a href="#进入域名DNS解析管理，添加一个记录类型为-A-记录值-xxxx-xxxx-xxxx-xxxx-服务器ipV4的地址" class="headerlink" title="进入域名DNS解析管理，添加一个记录类型为 A 记录值 xxxx.xxxx.xxxx.xxxx  (服务器ipV4的地址)"></a>进入域名DNS解析管理，添加一个记录类型为 A 记录值 xxxx.xxxx.xxxx.xxxx  (服务器ipV4的地址)</h3><p><img data-src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-24f5e259-2147-47d3-87fc-68ca3e4ceea7/6f69f2d0-f13a-403d-b024-2a1cfdb2e389.png" alt="DNS解析"></p>
+]]></content>
+      <categories>
+        <category>运维</category>
+      </categories>
+      <tags>
+        <tag>宝塔</tag>
+        <tag>DNS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站的由衷！</title>
+    <url>/2021/11/16/%E5%BB%BA%E7%AB%99%E7%9A%84%E7%94%B1%E8%A1%B7%EF%BC%81/</url>
+    <content><![CDATA[<h1 id="建站的理由！"><a href="#建站的理由！" class="headerlink" title="建站的理由！"></a>建站的理由！</h1><h2 id="原本自学前端知识，是为了学习开发小程序。后来因为一场官司让我感到了危机，这让我意识到这个社会的另一面，让我感到前途迷茫、想到因为这个案子带来的后续影响我就头皮发麻。我意识到我需要尽全力去做补救，一审不理想、我就上诉二审，二审还是一样，我便申诉再审，如再审还是一样，我将申诉至最高法院或检察院，或许我还会向相关的部门提交信访材料，去争取我的公道。同时也将我的遭遇尽可能的让更多人知道，让大家知道这种情况是怎么样，让大家别再被骗了。-建设这个网站是为了记录我的这个遭遇，和我的处理方式与最后的结果，同时也记录一些其他的内容。发布相关内容在微博或者其他的网站上，可能连发布的审核都过不了，因为平台不愿意相信我，他们觉得我发布的内容有问题，他们不想承担因我发布的内容带来的一些不可预料的后果。-所以我自己建设网站，自己想发布什么内容就发布什么内容，在不违反相关法律的情况下，我说什么都可以。反正网站是我的，出了什么问题也是找我。"><a href="#原本自学前端知识，是为了学习开发小程序。后来因为一场官司让我感到了危机，这让我意识到这个社会的另一面，让我感到前途迷茫、想到因为这个案子带来的后续影响我就头皮发麻。我意识到我需要尽全力去做补救，一审不理想、我就上诉二审，二审还是一样，我便申诉再审，如再审还是一样，我将申诉至最高法院或检察院，或许我还会向相关的部门提交信访材料，去争取我的公道。同时也将我的遭遇尽可能的让更多人知道，让大家知道这种情况是怎么样，让大家别再被骗了。-建设这个网站是为了记录我的这个遭遇，和我的处理方式与最后的结果，同时也记录一些其他的内容。发布相关内容在微博或者其他的网站上，可能连发布的审核都过不了，因为平台不愿意相信我，他们觉得我发布的内容有问题，他们不想承担因我发布的内容带来的一些不可预料的后果。-所以我自己建设网站，自己想发布什么内容就发布什么内容，在不违反相关法律的情况下，我说什么都可以。反正网站是我的，出了什么问题也是找我。" class="headerlink" title="原本自学前端知识，是为了学习开发小程序。后来因为一场官司让我感到了危机，这让我意识到这个社会的另一面，让我感到前途迷茫、想到因为这个案子带来的后续影响我就头皮发麻。我意识到我需要尽全力去做补救，一审不理想、我就上诉二审，二审还是一样，我便申诉再审，如再审还是一样，我将申诉至最高法院或检察院，或许我还会向相关的部门提交信访材料，去争取我的公道。同时也将我的遭遇尽可能的让更多人知道，让大家知道这种情况是怎么样，让大家别再被骗了。     建设这个网站是为了记录我的这个遭遇，和我的处理方式与最后的结果，同时也记录一些其他的内容。发布相关内容在微博或者其他的网站上，可能连发布的审核都过不了，因为平台不愿意相信我，他们觉得我发布的内容有问题，他们不想承担因我发布的内容带来的一些不可预料的后果。     所以我自己建设网站，自己想发布什么内容就发布什么内容，在不违反相关法律的情况下，我说什么都可以。反正网站是我的，出了什么问题也是找我。"></a>原本自学前端知识，是为了学习开发小程序。后来因为一场官司让我感到了危机，这让我意识到这个社会的另一面，让我感到前途迷茫、想到因为这个案子带来的后续影响我就头皮发麻。我意识到我需要尽全力去做补救，一审不理想、我就上诉二审，二审还是一样，我便申诉再审，如再审还是一样，我将申诉至最高法院或检察院，或许我还会向相关的部门提交信访材料，去争取我的公道。同时也将我的遭遇尽可能的让更多人知道，让大家知道这种情况是怎么样，让大家别再被骗了。     建设这个网站是为了记录我的这个遭遇，和我的处理方式与最后的结果，同时也记录一些其他的内容。发布相关内容在微博或者其他的网站上，可能连发布的审核都过不了，因为平台不愿意相信我，他们觉得我发布的内容有问题，他们不想承担因我发布的内容带来的一些不可预料的后果。     所以我自己建设网站，自己想发布什么内容就发布什么内容，在不违反相关法律的情况下，我说什么都可以。反正网站是我的，出了什么问题也是找我。</h2>]]></content>
+      <categories>
+        <category>简介</category>
+      </categories>
+      <tags>
+        <tag>简介</tag>
       </tags>
   </entry>
   <entry>

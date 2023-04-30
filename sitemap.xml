@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.cwgzs.top/%E5%85%B6%E4%BB%96%E7%9B%B8%E5%85%B3%E7%9A%84%E4%BE%8B%E5%AD%90.html</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.cwgzs.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85.html</loc>
+    
+    <lastmod>2023-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.cwgzs.top/%E5%86%8D%E5%AE%A1%EF%BC%882021%EF%BC%89%E7%B2%A4%E6%B0%91%E7%94%B32625%E5%8F%B7.html</loc>
     
     <lastmod>2023-04-30</lastmod>
@@ -39,15 +57,6 @@
   
   <url>
     <loc>https://blog.cwgzs.top/%E6%A1%88%E4%BB%B6%E5%88%86%E6%9E%90.html</loc>
-    
-    <lastmod>2023-04-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.cwgzs.top/%E6%A1%88%E4%BB%B6%E8%AF%A6%E6%83%85.html</loc>
     
     <lastmod>2023-04-30</lastmod>
     
@@ -175,6 +184,13 @@
   
   <url>
     <loc>https://blog.cwgzs.top/tags/%E6%B8%B8%E8%A1%8C%E7%94%B3%E8%AF%B7%E4%B9%A6/</loc>
+    <lastmod>2023-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.cwgzs.top/tags/%E6%A1%88%E4%BE%8B/</loc>
     <lastmod>2023-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
